@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3A7F8068FF72D6374BC390AF0C72FB7B545F9BF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BE405797E9D990D334CB16DE65C4BB446C1F8377" : 0,
+    "3A7F8068FF72D6374BC390AF0C72FB7B545F9BF0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4A675804-9225-4FEA-91E0-7B04082CFA54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BE405797E9D990D334CB16DE65C4BB446C1F8377" : "",
+    "3A7F8068FF72D6374BC390AF0C72FB7B545F9BF0" : "SummerNodeProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SummerNodeProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SummerNodeProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Svusuperman\/SummerNodeProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A7F8068FF72D6374BC390AF0C72FB7B545F9BF0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Svusuperman\/ProjectTeacher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE405797E9D990D334CB16DE65C4BB446C1F8377"
+    }
+  ]
+}
