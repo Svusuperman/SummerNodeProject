@@ -11,6 +11,7 @@
 		A479F42C1D47FFD3006F38B7 /* DataNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A479F42A1D47FFD3006F38B7 /* DataNode.cpp */; };
 		A479F4301D480CEA006F38B7 /* NodeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A479F42E1D480CEA006F38B7 /* NodeController.cpp */; };
 		A4D0794A1D490A2D00C21812 /* SummerArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D079481D490A2D00C21812 /* SummerArray.cpp */; };
+		A4D0794E1D4944AD00C21812 /* SummerList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4D0794C1D4944AD00C21812 /* SummerList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		A479F42F1D480CEA006F38B7 /* NodeController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NodeController.hpp; sourceTree = "<group>"; };
 		A4D079481D490A2D00C21812 /* SummerArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SummerArray.cpp; sourceTree = "<group>"; };
 		A4D079491D490A2D00C21812 /* SummerArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SummerArray.hpp; sourceTree = "<group>"; };
+		A4D0794C1D4944AD00C21812 /* SummerList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SummerList.cpp; sourceTree = "<group>"; };
+		A4D0794D1D4944AD00C21812 /* SummerList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SummerList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +80,11 @@
 			children = (
 				A479F42A1D47FFD3006F38B7 /* DataNode.cpp */,
 				A479F42B1D47FFD3006F38B7 /* DataNode.h */,
+				A4D079481D490A2D00C21812 /* SummerArray.cpp */,
+				A4D079491D490A2D00C21812 /* SummerArray.hpp */,
+				A4D0794C1D4944AD00C21812 /* SummerList.cpp */,
+				A4D0794D1D4944AD00C21812 /* SummerList.hpp */,
 				A479F4311D480CF0006F38B7 /* Controller */,
-				A4D0794B1D490A4700C21812 /* SummerArray */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -90,15 +96,6 @@
 				A479F42F1D480CEA006F38B7 /* NodeController.hpp */,
 			);
 			name = Controller;
-			sourceTree = "<group>";
-		};
-		A4D0794B1D490A4700C21812 /* SummerArray */ = {
-			isa = PBXGroup;
-			children = (
-				A4D079481D490A2D00C21812 /* SummerArray.cpp */,
-				A4D079491D490A2D00C21812 /* SummerArray.hpp */,
-			);
-			name = SummerArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +157,7 @@
 				A4D0794A1D490A2D00C21812 /* SummerArray.cpp in Sources */,
 				A479F4301D480CEA006F38B7 /* NodeController.cpp in Sources */,
 				A479F4241D47FE16006F38B7 /* main.cpp in Sources */,
+				A4D0794E1D4944AD00C21812 /* SummerList.cpp in Sources */,
 				A479F42C1D47FFD3006F38B7 /* DataNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
