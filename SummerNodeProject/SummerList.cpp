@@ -27,12 +27,11 @@ void SummerList<Type> :: addAtIndex(int index, Type data)
     
     if(index==0)
     {
-        newNode->setNoPointer(indexPointer);
-        front - newNode;
+        addAtFront(data);
     }
     else if(index == size - 1)
     {
-        
+        add(data);
     }
     else
     {
@@ -61,5 +60,23 @@ void SummerList<Type> :: add(Type data)
     {
         end->setNewNodePointer(newNode);
         end = newNode;
+    }
+}
+
+
+template <class Type>
+void SummerList<Type> :: addAtFront(Type data)
+{
+    DataNode<Type> * newNode = new DataNode<Type>(data);
+    if(size == 0)
+    {
+        front = newNode;
+        end = newNode;
+        
+    }
+    else
+    {
+        newNode->setNoPointer(front);
+        front - newNode;
     }
 }
