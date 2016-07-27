@@ -16,7 +16,7 @@ template <class Type>
 class SummerList
 {
 private:
-    int length;
+    int size;
     DataNode<Type> * front;
     DataNode<Type> * end;
 public:
@@ -28,7 +28,7 @@ public:
     Type setAtIndex(int index, Type data);
     
     int getSize();
-    void addAtIndexint (int index, Type data);
+    void addAtIndex (int index, Type data);
     void add(Type data);
     void addAtFront(Type data);
     Type remove(int index);
