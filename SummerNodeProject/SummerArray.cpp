@@ -45,3 +45,15 @@ Type SummerArray<Type> :: getFromIndex(int index)
     
     return retrievedValue;
 }
+
+template <class Type>
+Type SummerArray<Type> :: getFirst()
+{
+    return front->getNodeData();
+}
+
+template <class Type>
+Type SummerArray<Type> :: getLast()
+{
+    return end->getNodeData();
+}
