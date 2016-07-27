@@ -32,12 +32,15 @@ void SummerList<Type> :: addAtIndex(int index, Type data)
     else if(index == size - 1)
     {
         add(data);
+        
     }
     else
     {
         for(int position = 0; position < index - 1; position++)
     {
         indexPointer = indexPointer->getNodePointer();
+        
+        size++;
     }
     
         DataNode<Type> * temp = indexPointer->getNodePointer();
